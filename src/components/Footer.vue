@@ -1,0 +1,121 @@
+<template>
+<footer class="text-center text-lg-start bg-light text-muted" id="footer-id">
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    
+    <div class="me-5 d-none d-lg-block">
+      <b>Rejoignez-nous sur les réseaux sociaux :</b>
+    </div>
+
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>EURL B.BAT
+          </h6>
+          <p>
+            Pour passer des vacances inoubliables, il est important de bien choisir sa location !
+            Contactez-nous pour trouver votre AtypikHouse à louer et réservez dès maintenant votre location de vacances auprès de notre agence.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            EURL B.BAT
+          </h6>
+          <p>
+            <a>À propos de nous</a>
+          </p>
+          <p>
+            <a>Avis</a>
+          </p>
+          <p>
+            <a>Obtenir des directions</a>
+          </p>
+          <p>
+            <a>Visites à proximité</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Êtes-vous locateur
+          </h6>
+           <p>
+             Si vous êtes propriètaire d'un bien immobilier que vous souhaitez mettre en location saisonnière, contactez notre agence pour louer en toute sérénité.
+           </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> 67 Avenue Des Pinsons, 93370 Montfermeil, France</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            contactus@EURL.B.BAT.fr
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +33 5 58 59 57 56</p>
+          <p><i class="fas fa-print me-3"></i> +33 5 58 59 57 56</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright :
+    <b>EURL B.BAT</b>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</template>
+
+<script>
+export default {
+  name: "Footer"
+}
+</script>
