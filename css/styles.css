@@ -434,7 +434,7 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
+/*rtl:raw:
 [type="tel"],
 [type="url"],
 [type="email"],
@@ -10820,13 +10820,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
-  scroll-padding-top: 4.5rem;
-}
 
-body {
-  position: relative;
-}
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 4.5rem;
+    position: relative;
+ }
 
 p {
   line-height: 1.75;
@@ -10850,7 +10853,7 @@ p {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    padding: 2rem 0;
   }
 }
 .btn-xl {
@@ -11239,7 +11242,6 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 26rem;
   height: 26rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
@@ -11303,7 +11305,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-/* #logo {
+#logo {
     width: 107px;
     height: 57px;
 }
